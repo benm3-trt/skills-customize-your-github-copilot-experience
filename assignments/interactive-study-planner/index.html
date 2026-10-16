@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Study Planner</h1>
+
+      <form id="task-form">
+        <label>
+          Task Name
+          <input type="text" id="task-name" placeholder="Example: Review biology notes" required />
+        </label>
+
+        <label>
+          Subject
+          <input type="text" id="task-subject" placeholder="Example: Biology" required />
+        </label>
+
+        <label>
+          Priority
+          <select id="task-priority">
+            <option value="High">High</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Low">Low</option>
+          </select>
+        </label>
+
+        <label>
+          Due Date
+          <input type="date" id="task-date" required />
+        </label>
+
+        <button type="submit">Add Task</button>
+      </form>
+
+      <section>
+        <h2>Tasks</h2>
+        <ul id="task-list"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
