@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "student-planner-app",
+      "title": "Student Planner App",
+      "description": "Build a Python planner for tracking tasks and homework",
+      "path": "assignments/student-planner-app",
+      "dueDate": "2026-10-23",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
